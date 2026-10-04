@@ -1,10 +1,9 @@
-# SAD Project
+# Systems Analysis and Design (SAD) Project
+
 
 ## System Name
 Course-Registration-System
 
-#### Course
-Systems Analysis and Design (SAD)
 
 ## Business Need
 
