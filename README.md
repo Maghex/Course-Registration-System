@@ -5,14 +5,11 @@
 Course-Registration-System
 
 
-
-#### Business Need
+### Business Need
 
 The university suffers from human errors during semester course registration periods due to its reliance on manual review of prerequisites and calculation of minimum and maximum credit hours. This project aims to build an automated system that ensures the accurate application of academic regulations, eliminates scheduling conflicts, and reduces the administrative burden on academic advisors.
 
 تعاني الجامعة من اختناقات وأخطاء بشرية متكررة خلال فترات تسجيل المقررات الفصلية نتيجة الاعتماد على المراجعة اليدوية للمتطلبات السابقة (Pre-requisites) وحساب الحدود القصوى والدنيا للساعات المعتمدة (Credit Hours).يهدف هذا المشروع إلى بناء نظام آلي يضمن تطبيق اللوائح الأكاديمية بدقة، ويزيل التضارب في الجداول، ويخفض العبء الإداري على المرشدين الأكاديميين.
-
-
 
 
 #### Project Requirements
@@ -25,7 +22,6 @@ The university suffers from human errors during semester course registration per
 
 #### Feasibility Study
 ###### Technical feasibility involves assessing the technical risks and the team's ability to implement and maintain the system under pressure:-
-
 - Technology Familiarity: Highly familiar; the system relies on standard web technologies (such as React/Vue for the front end, Node.js/Python for back-end services, and PostgreSQL or MySQL databases).
 - Project Size: Medium size. It consists of key modules: Student Management, Course Management, Rules Engine, and Reports Panel.
 - System Load Risk: Relatively high during peak registration week (peak load). This requires the adoption of a scalable architecture (cloud scaling/microservices) to handle thousands of concurrent requests without system crashes.
