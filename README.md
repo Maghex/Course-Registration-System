@@ -3,7 +3,7 @@
 ## System Name
 Course-Registration-System
 
-## Course
+#### Course
 Systems Analysis and Design (SAD)
 
 ## Business Need
