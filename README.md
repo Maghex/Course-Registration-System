@@ -58,12 +58,12 @@ All diagram source files are available in:
 
 ## Team Members
 
-- Mahmoud ...
-- ...
-- ...
+- Mahmoud
+- Mohamed
+- Mustafa
 
 ## Course Information
 
-**Course:** Systems Analysis and Design  
-**University:** ...  
+**Course:** Systems Analysis and Design
+**University:** FCI Menofia University
 **Academic Year:** 2026/2027
