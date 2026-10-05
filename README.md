@@ -61,6 +61,7 @@ All diagram source files are available in:
 - Mahmoud
 - Mohamed
 - Mustafa
+- Yousef
 
 ## Course Information
 
