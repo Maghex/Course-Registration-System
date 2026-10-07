@@ -1,34 +1,29 @@
-# Systems Analysis and Design (SAD) Project
+# Course Registration System (CRS)
 
+Systems Analysis and Design (SAD) Project — FCI Menofia University, 2026/2027
 
-### System Name
-Course-Registration-System
+## Project Name
 
+Course Registration System (CRS)
 
-### Business Need
+## Definition
 
-The university suffers from human errors during semester course registration periods due to its reliance on manual review of prerequisites and calculation of minimum and maximum credit hours. This project aims to build an automated system that ensures the accurate application of academic regulations, eliminates scheduling conflicts, and reduces the administrative burden on academic advisors.
+An online system that allows students to register for courses while automatically enforcing prerequisites and credit-hour limits, displaying available seats in real time, and providing registration reports to the administration.
 
-تعاني الجامعة من اختناقات وأخطاء بشرية متكررة خلال فترات تسجيل المقررات الفصلية نتيجة الاعتماد على المراجعة اليدوية للمتطلبات السابقة (Pre-requisites) وحساب الحدود القصوى والدنيا للساعات المعتمدة (Credit Hours).يهدف هذا المشروع إلى بناء نظام آلي يضمن تطبيق اللوائح الأكاديمية بدقة، ويزيل التضارب في الجداول، ويخفض العبء الإداري على المرشدين الأكاديميين.
+## Objectives
 
+- Enable students to register, add, and drop courses online.
+- Validate prerequisites and maximum credit hours automatically.
+- Display available seats for each section in real time.
+- Manage waiting lists for full sections.
+- Provide management reports on enrollment per course.
+- Send registration confirmation notifications to students.
 
-#### Project Requirements
+## Problems Solved
 
-- Automated Prerequisite Verification: Automatically prevents students from registering for any course without completing the prerequisite.
-- Credit Limits Management: Determines the maximum and minimum credit hours allowed based on GPA and student status (probation, honours, graduation).
-- Schedule Check: Immediately detects any scheduling conflicts between lectures or final exams before schedule confirmation.
-- Schedule Check: Immediately detects any scheduling conflicts between lectures or final exams before schedule confirmation.
-
-
-#### Feasibility Study
-###### Technical feasibility involves assessing the technical risks and the team's ability to implement and maintain the system under pressure:-
-- Technology Familiarity: Highly familiar; the system relies on standard web technologies (such as React/Vue for the front end, Node.js/Python for back-end services, and PostgreSQL or MySQL databases).
-- Project Size: Medium size. It consists of key modules: Student Management, Course Management, Rules Engine, and Reports Panel.
-- System Load Risk: Relatively high during peak registration week (peak load). This requires the adoption of a scalable architecture (cloud scaling/microservices) to handle thousands of concurrent requests without system crashes.
-- Compliance with academic regulations: The system is fully aligned with university policies, and even promotes their precise application without bias or unjustified exceptions.
-- User Acceptance: Excellent among students and mentors, as it provides a simple and clear interface that replaces complex paperwork.
-- Change management and authorisation: Requires basic training for academic advisors on how to handle exception requests and modify study plans.
-
+- Prerequisite and credit-hour errors caused by manual record checking.
+- Long queues at the start of each semester.
+- No real-time information on available seats.
 
 ## Project Documentation
 
@@ -58,10 +53,12 @@ All diagram source files are available in:
 
 ## Team Members
 
-- Mahmoud
-- Mohamed
-- Mustafa
-- Yousef
+| No. | Name | Section |
+|---|---|---|
+| 1 | مصطفى محمد عبدالبصير محمد يونس | 2 |
+| 2 | يوسف رأفت محمد حماد | 2 |
+| 3 | محمد ممدوح عبدالله سليمان | 2 |
+| 4 | محمود محسن محمود صبيح | 1 |
 
 ## Course Information
 
