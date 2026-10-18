@@ -1,53 +1,73 @@
-# System Request — Course Registration System (CRS)
+# Course Registration System (CRS)
 
-**Project name:** Course Registration System (CRS)
-**Course:** System Analysis & Design
+**جامعة المنوفية**  
+**كلية الحاسبات والمعلومات**  
+**Menoufia University**  
 
----
-
-## 1. Project Sponsor
-
-Vice Dean for Education and Student Affairs.
-
----
-
-## 2. Business Need
-
-- Prerequisite and credit-hour errors caused by manual record checking.
-- Long queues at the start of each semester.
-- No real-time information on available seats.
+* **Sad-project**
+* **second year**
+* **2026-2027**
 
 ---
 
-## 3. Business Requirements
+## Team Members
 
-1. Online registration.
-2. Automatic validation of prerequisites and maximum credit hours.
-3. Real-time display of available seats.
-4. Waiting list for full sections.
-5. Add and drop of courses during the registration period.
-6. Management reports (registered students per course).
-7. Confirmation notifications to students.
-
----
-
-## 4. Business Value
-
-| Benefit | Estimate (EGP / year) |
-|---|---:|
-| Staff time saved | 90,000 |
-| Paper and printing saved | 40,000 |
-| Fewer registration errors | 50,000 |
-| **Total** | **≈ 180,000** |
-
-Intangible benefits: higher student satisfaction, accurate real-time data, transparent registration decisions.
+| No. | Name | Section |
+|---|---|---|
+| 1 | مصطفي محمد عبدالبصير محمد يونس | 2 |
+| 2 | يوسف رأفت محمد حماد | 2 |
+| 3 | محمد ممدوح عبدالله سليمان | 2 |
+| 4 | محمود محسن محمود صبيح | 1 |
 
 ---
 
-## 5. Special Issues and Constraints
+## Project Introduction
 
-- Deadline: before the next registration period.
-- Peak load on registration day.
-- Student data security and privacy.
-- Migration of existing student and course data.
-- Academic rules that differ between programs.
+### Project Identification
+
+| Project name: | Course Registration System (CRS) |
+|---|---|
+| Course: | System Analysis & Design |
+
+### Definition:-
+An online system that allows students to register for courses while automatically enforcing prerequisites and credit-hour limits, displaying available seats in real time, and providing registration reports to the administration.
+
+### Objectives:-
+* Enable students to register, add, and drop courses online.
+* Validate prerequisites and maximum credit hours automatically.
+* Display available seats for each section in real time.
+* Manage waiting lists for full sections.
+* Provide management reports on enrollment per course.
+* Send registration confirmation notifications to students.
+
+### Problems Solved:-
+* Prerequisite and credit-hour errors caused by manual record checking.
+* Long queues at the start of each semester.
+* No real-time information on available seats.
+
+---
+
+## System Request–Course Registration System Project
+
+* **Project Sponsor:** Menoufia University, Ministry of Higher Education and Scientific Research
+* **Business Need:** The university suffers from human errors during semester course registration periods due to its reliance on manual review of prerequisites and calculation of minimum and maximum credit hours. This project aims to build an automated system that ensures the accurate application of academic regulations, eliminates scheduling conflicts, and reduces the administrative burden on academic advisors. An online system that allows students to register for courses while automatically enforcing prerequisites and credit-hour limits, displaying available seats in real time, and providing registration reports to the administration.
+* **Business Requirements:** 
+  * Automated Prerequisite Verification: Automatically prevents students from registering for any course without completing the prerequisite.
+  * Credit Limits Management: Determines the maximum and minimum credit hours allowed based on GPA and student status (probation, honors, graduation).
+  * Schedule Check: Immediately detects any scheduling conflicts between lectures or final exams before schedule confirmation.
+* **Business Value:** 
+  * Zero Registration Errors: Stops students from taking courses without prerequisites or wrong credit hours.
+  * 80% Reduction in Registration Time: Cuts down the average time required for a student to complete course registration from days to just a few minutes.
+  * Zero Queue Overhead: Eliminates physical queues and administrative crowding at student affairs and academic guidance offices.
+  * Optimized Resource Allocation: Provides real-time capacity tracking for course sections, enabling better hall assignment and faculty load distribution.
+  * Enhanced Student Experience: Offers a transparent, fast, and smooth self-service registration process without scheduling or exam conflicts.
+  * Reduced Advisor Burnout: Shifts the academic advisor's role from manual paper-checking to strategic academic mentor ship.
+  * Data-Driven Decision Making: Delivers accurate enrollment analytics and reporting for administrators to plan future semester offerings.
+  * Fair System: Applies college rules equally to all students.
+  * Clear Reports: Gives the management fast reports on student numbers per course.
+* **Special Issues or Constraints:** 
+  * Peak Load & Performance: The system must handle high traffic and hundreds of concurrent users during the registration week without crashing or slowing down.
+  * System Availability: The system needs to be available 24/7 during the active registration period.
+  * Security & Data Privacy: Student records, grades, and GPA data must be securely protected with proper access controls for students, advisors, and admins.
+  * Bylaws Compliance: The rules engine must strictly comply with the university’s credit-hour academic regulations.
+  * User Adoption: Academic advisors and administrators must receive basic training on how to handle override requests and manage registration.
