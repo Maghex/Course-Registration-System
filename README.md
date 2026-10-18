@@ -1,55 +1,51 @@
-# Course Registration System (CRS)
+# Course Registration System (CRS) 🎓
 
-Systems Analysis and Design (SAD) Project — FCI Menofia University, 2026/2027
+An automated System Analysis and Design project created to streamline course registration, student enrollment, and academic management.
 
-## Project Name
+---
 
-Course Registration System (CRS)
+## 📋 Planning Phase
 
-## Definition
+This repository contains the foundational documentation for the **Planning Phase** of the Course Registration System project.
 
-An online system that allows students to register for courses while automatically enforcing prerequisites and credit-hour limits, displaying available seats in real time, and providing registration reports to the administration.
+### 📄 Documentation & Resources
 
-## Objectives
+All planning phase documents are organised inside the `docs/` folder:
 
-- Enable students to register, add, and drop courses online.
-- Validate prerequisites and maximum credit hours automatically.
-- Display available seats for each section in real time.
-- Manage waiting lists for full sections.
-- Provide management reports on enrollment per course.
-- Send registration confirmation notifications to students.
+| Document | Description | Available Formats | Links |
+| :--- | :--- | :---: | :--- |
+| **System Request** | Initial request specifying business needs, system features, and project scope. | `.docx` / `.md` | [Word Document](./docs/01-System-Request.docx) \| [Markdown Version](./docs/01-System-Request.md) |
+| **Feasibility Study** | Comprehensive analysis of Technical, Economic, and Organisational feasibility. | `.docx` / `.xlsx` | [Word Document](./docs/02-Feasibility-Study.docx) \| [Excel Analysis](./docs/02-Feasibility-Study.xlsx) |
 
-## Problems Solved
+---
 
-- Prerequisite and credit-hour errors caused by manual record checking.
-- Long queues at the start of each semester.
-- No real-time information on available seats.
+## 🚀 Key Feasibility Highlights
 
-## Project Documentation
+1. **Technical Feasibility**
+   - Built with modern web architecture (Frontend + Backend REST APIs + Database).
+   - High availability during peak course registration windows.
 
-### 1. System Request
-[View System Request](docs/01-System-Request/system-request.md)
+2. **Economic Feasibility**
+   - Reduces administrative manual work and paper usage.
+   - Cost-benefit calculations and ROI analysis available in the Excel model.
 
-### 2. Feasibility Study
-[View Feasibility Study](docs/02-Feasibility-Study/feasibility-study.md)
+3. **Organizational Feasibility**
+   - User-friendly interface designed for students, faculty advisors, and system admins.
+   - Minimal training required for operational staff.
 
-### 3. Requirements
-[View Requirements](docs/03-Requirements/)
+---
 
-### 4. System Analysis
-[View Analysis](docs/04-Analysis/)
+## 📂 Project Repository Structure
 
-### 5. Data Modeling
-[View Data Modeling](docs/05-Data-Modeling/)
+```text
+Course-Registration-System/
+├── docs/
+│   ├── 01-System-Request.docx
+│   ├── 01-System-Request.md
+│   ├── 02-Feasibility-Study.docx
+│   └── 02-Feasibility-Study.xlsx
+└── README.md
 
-### 6. System Design
-[View System Design](docs/06-System-Design/)
-
-## Diagrams
-
-All diagram source files are available in:
-
-`diagrams/source/`
 
 ## Team Members
 
