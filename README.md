@@ -45,7 +45,7 @@ Course-Registration-System/
 │   ├── 02-Feasibility-Study.docx
 │   └── 02-Feasibility-Study.xlsx
 └── README.md
-
+```
 
 ## Team Members
 
@@ -58,6 +58,6 @@ Course-Registration-System/
 
 ## Course Information
 
-**Course:** Systems Analysis and Design
-**University:** FCI Menofia University
+**Course:** Systems Analysis and Design  
+**University:** FCI Menofia University  
 **Academic Year:** 2026/2027
