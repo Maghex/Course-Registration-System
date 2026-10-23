@@ -16,6 +16,7 @@ All planning phase documents are organised inside the `docs/` folder:
 | :--- | :--- | :---: | :--- |
 | **System Request** | Initial request specifying business needs, system features, and project scope. | `.docx` / `.md` | [Word Document](./docs/01-System-Request.docx) \| [Markdown Version](./docs/01-System-Request.md) |
 | **Feasibility Study** | Comprehensive analysis of Technical, Economic, and Organisational feasibility. | `.docx` / `.xlsx` | [Word Document](./docs/02-Feasibility-Study.docx) \| [Excel Analysis](./docs/02-Feasibility-Study.xlsx) |
+| **Project Plan** | Methodology, time estimation, case study, PERT chart, and Gantt chart. | `.docx` | [Word Document](./docs/03-Project-Plan.docx) |
 
 ---
 
@@ -43,7 +44,8 @@ Course-Registration-System/
 │   ├── 01-System-Request.docx
 │   ├── 01-System-Request.md
 │   ├── 02-Feasibility-Study.docx
-│   └── 02-Feasibility-Study.xlsx
+│   ├── 02-Feasibility-Study.xlsx
+│   └── 03-Project-Plan.docx
 └── README.md
 ```
 
